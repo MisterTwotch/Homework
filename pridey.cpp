@@ -18,9 +18,11 @@ int main() {
 	cout  <<"Выберте нужное математическое действие: - + / * " << endl;
 	char dey;
 	cin >> dey;
+	double otvet;
 	switch (dey) {
 	case '+':
-		cout << "Данная опция пока в разработке";
+		otvet = a + b;
+		cout << "Ответ: " <<otvet<<endl;
 		break;
 	case '-':
 		cout << "Данная опция пока в разработке";
