@@ -33,8 +33,9 @@ int main() {
 		cout << "Ответ: " << otvet << endl;
 		break; // Ready
 	case '/':
-		cout << "Данная опция пока в разработке";
-		break;
+		otvet = a * b;
+		cout << "Ответ: " << otvet << endl;
+		break;//ready
 	default:
 		cout << "Неверный ввод";
 		break;
