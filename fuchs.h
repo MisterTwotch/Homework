@@ -21,7 +21,7 @@ void deystvie(double a,double b) {
 		cout << "Ответ: " << otvet << endl;
 		break; // Ready
 	case '/':
-		otvet = a * b;
+		otvet = a / b;
 		cout << "Ответ: " << otvet << endl;
 		break;//ready
 	default:
