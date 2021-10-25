@@ -29,8 +29,9 @@ int main() {
 		cout << "Ответ: " << otvet << endl;
 		break;
 	case '*':
-		cout << "Данная опция пока в разработке";
-		break;
+		otvet = a * b;
+		cout << "Ответ: " << otvet << endl;
+		break; // Ready
 	case '/':
 		cout << "Данная опция пока в разработке";
 		break;
